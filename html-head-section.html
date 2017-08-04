@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Shakshuka Recipe</title>
+  <meta name="description" content="The best, simple recipe for delicious Middle Eastern Shakshuka, a cumin spiced tomato sauce with sautéd onions and chili peppers topped with poached eggs." charset="utf-8">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-12345678-9', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
 <body>
   <header>
@@ -81,9 +90,10 @@
 
   <section id="reviews">
     <h2>Reviews</h2>
-    <form action="/reviews" method="post">
+    <form action="/reviews" id="review-form" method="post">
       <label for="name">Name</label>
       <input id="name" type="text" name="name">
+
 
       <label for="rating">Rating</label>
       1<input type="radio" name="rating" value="1" checked>
